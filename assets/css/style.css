@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.button1 {
+    background-color: #adb8ad;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.button2 {
+    background-color: #adb8ad;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 80px;
+    height: 80px;
+}
+
+.dark {
+    background-color: #333;
+}
+
+.container.dark .main {
+    background-color: #333333;
+}
+
+
+/*  DARK */
+
+.container.dark p,
+.container.dark h1,
+.container.dark a,
+.container.dark label {
+    color: #f4f4f4;
+}
+
+.container.dark .header,
+.container.dark .footer {
+    box-shadow: 0 0 8px gray;
+}
+
+.retro {
+    background-color: rgb(194, 22, 165);
+}
+
+.container.retro .main {
+    background-color: #c517c5;
+}
+
+
+/*  RETRO */
+
+.container.retro p,
+.container.retro h1,
+.container.retro a,
+.container.retro label {
+    color: #f4f4f4;
+}
+
+.container.retro .header,
+.container.retro .footer {
+    box-shadow: 0 0 8px gray;
+}

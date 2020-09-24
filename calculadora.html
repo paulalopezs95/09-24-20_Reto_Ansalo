@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="uft-8" />
+    <title>RETO ÁNSALO</title>
+
+    <!--CSS-->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container" id="container">
+
+        <!--Title-->
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 d-flex justify-content-center mt-5">
+                <h1>CALCULADORA</h1>
+            </div>
+        </div>
+
+        <main class="main mt-5">
+            <div class="row d-flex justify-content-center d-flex justify-content-center">
+                <div class="col-3 align-items-center">
+                    <p class="font-weight-bolder">Letras</p>
+                </div>
+                <div class="col-3 align-content-center">
+                    <input class="form-control" name="letter" id="letter" disabled>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center d-flex justify-content-center mt-3">
+                <div class="col-3 d-flex justify-items-start align-items-center">
+                    <p class="font-weight-bolder">Números</p>
+                </div>
+                <div class="col-3 align-content-center">
+                    <input class="form-control" name="number" id="number" disabled>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 d-flex justify-content-center mt-5">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input dark" id="customSwitch1">
+                        <label class="custom-control-label" for="customSwitch1">Activar Modo Oscuro</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 d-flex justify-content-center mt-5">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input retro" id="customSwitch2">
+                        <label class="custom-control-label" for="customSwitch2">Activar Tema Retro</label>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Buttons-->
+
+            <div>
+                <div class="row d-flex justify-content-center mt-5">
+                    <div class="mt-1 mr-1">
+                        <button id="option1" class="button2">A-1</button>
+                    </div>
+                    <div class="mt-1 mr-1">
+                        <button id="option2" class="button2">B-2</button>
+                    </div>
+                    <div class="mt-1 mr-1">
+                        <button id="option3" class="button2">C-3</button>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="mt-1 mr-1">
+                        <button id="option4" class="button2" type="submit">D-4</button>
+                    </div>
+                    <div class="mt-1 mr-1">
+                        <button id="option5" class="button2" type="submit">E-5</button>
+                    </div>
+                    <div class="mt-1 mr-1">
+                        <button id="option6" class="button2" type="submit">F-6</button>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class=" mt-1 mr-1">
+                        <button id="option7" class="button2" type="submit">G-7</button>
+                    </div>
+                    <div class="mt-1 mr-1">
+                        <button id="option8" class="button2" type="submit">H-8</button>
+                    </div>
+                    <div class="mt-1 mr-1">
+                        <button id="option9" class="button2" type="submit">I-9</button>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="mt-1 mr-1">
+                        <button id="calculadora" class="button2" type="submit">Calcu</button>
+                    </div>
+                    <div class="mt-1 mr-1">
+                        <button id="option10" class="button2" type="submit">J-0</button>
+                    </div>
+                    <div class="mt-1 mr-1">
+                        <button id="borrar" class="button2" type="reset">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            Creado por Paula López para Bictia
+        </footer>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <!--Scripts-->
+    <script src="assets/js/localStorage.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
